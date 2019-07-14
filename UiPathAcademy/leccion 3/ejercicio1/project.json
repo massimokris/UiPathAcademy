@@ -1,0 +1,29 @@
+{
+  "name": "ejercicio1",
+  "description": "Ejercicio práctico\r\n \r\nGenerador de sobrenombres\r\n\r\n \r\n\r\nCrear una secuencia que haga lo siguiente:\r\n\r\n- Leer un archivo denominado ‘Members Only.csv’ y guardar la información en una tabla de datos.\r\n\r\n- Filtrar la tabla de datos en función de la pertenencia a un club.\r\n\r\n- Crear un sobrenombre para cada miembro de un club utilizando las 3 primeras letras del nombre de pila, todas en mayúscula, y las 3 primeras letras del apellido, todas en minúscula.\r\n- Escribir todos los sobrenombres generados",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.6.2]",
+    "UiPath.Mail.Activities": "[1.5.0]",
+    "UiPath.System.Activities": "[19.6.0]",
+    "UiPath.UIAutomation.Activities": "[19.6.0]"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "19.6.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "expressionLanguage": "VisualBasic",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  },
+  "webServices": []
+}
