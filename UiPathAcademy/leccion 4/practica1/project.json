@@ -1,0 +1,29 @@
+{
+  "name": "practica1",
+  "description": "Crear una secuencia que realice la siguiente automatización del Bloc de notas:\r\nSolicitar al usuario el texto que vaya a escribir.\r\nSolicitar al usuario el nombre del archivo para guardarlo.\r\nAbrir el Bloc de notas.\r\nEscribir el texto indicado por el usuario.\r\nCambiar el estilo de fuente a negrita y su tamaño a 16.\r\nNavegar a Guardar como para guardar el archivo con el nombre indicado por el usuario.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.6.2]",
+    "UiPath.Mail.Activities": "[1.5.0]",
+    "UiPath.System.Activities": "[19.6.0]",
+    "UiPath.UIAutomation.Activities": "[19.6.0]"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "19.6.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "expressionLanguage": "VisualBasic",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  },
+  "webServices": []
+}
