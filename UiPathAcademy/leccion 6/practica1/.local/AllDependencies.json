@@ -20,6 +20,15 @@
           "lib/BouncyCastle.Crypto.dll": {}
         }
       },
+      "Bridge.Core/17.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/Bridge.dll": {}
+        }
+      },
       "ClosedXML/0.87.1": {
         "type": "package",
         "dependencies": {
@@ -197,6 +206,30 @@
           "lib/net45/NPOI.OpenXml4Net.dll": {},
           "lib/net45/NPOI.OpenXmlFormats.dll": {},
           "lib/net45/NPOI.dll": {}
+        }
+      },
+      "Retyped.Core/1.6.6733": {
+        "type": "package",
+        "dependencies": {
+          "Bridge.Core": "17.1.0"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/Retyped.Core.dll": {}
+        }
+      },
+      "Retyped.is-relative-url/2.0.6733": {
+        "type": "package",
+        "dependencies": {
+          "Retyped.Core": "1.6.6733"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/Retyped.is-relative-url.dll": {}
         }
       },
       "SharpZipLib/1.0.0": {
@@ -502,6 +535,24 @@
         "lib/BouncyCastle.Crypto.dll"
       ]
     },
+    "Bridge.Core/17.1.0": {
+      "sha512": "IND6qp5xWeVYS/2Z61tJkv9S/Tq1LixeUrtK6+GlCQcQ8MGAkgApR5H3flAO1SORkdhLqBdcJIRPeH0HCfv2Lg==",
+      "type": "package",
+      "path": "bridge.core/17.1.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "bridge.core.17.1.0.nupkg.sha512",
+        "bridge.core.nuspec",
+        "lib/net40/Bridge.dll",
+        "lib/net40/Bridge.xml",
+        "lib/net40/pdb/Bridge.pdb",
+        "tools/install.ps1"
+      ]
+    },
     "ClosedXML/0.87.1": {
       "sha512": "2LC0T8bu2G2kt34C4Ig87uZfrRO4MwMVI54e2To7m3DvwAs2Z2Ir86WQuUoW8Txo1uNGSfmu3DpfpQhSX0bIww==",
       "type": "package",
@@ -745,6 +796,34 @@
         "logo/60_60.jpg",
         "npoi.2.4.1.nupkg.sha512",
         "npoi.nuspec"
+      ]
+    },
+    "Retyped.Core/1.6.6733": {
+      "sha512": "Gnc7oVSMxyWvgWxFMGVwaY7zsSE9J4aednCjsGYoauvU5GLQJYLa6UZ9dtpeeS5CvEnny6rZNhNJOn9qz/aXNQ==",
+      "type": "package",
+      "path": "retyped.core/1.6.6733",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net40/Retyped.Core.dll",
+        "lib/net40/Retyped.Core.xml",
+        "retyped.core.1.6.6733.nupkg.sha512",
+        "retyped.core.nuspec"
+      ]
+    },
+    "Retyped.is-relative-url/2.0.6733": {
+      "sha512": "T9MZFSfeUVX0tb2MKv+9DkwGu4ZzSY4kCaDKl43ZUxbcgeDOSUW3eoTkCgpuh9E1xvpl/b5FTNRVQC0moDzpKA==",
+      "type": "package",
+      "path": "retyped.is-relative-url/2.0.6733",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net40/Retyped.is-relative-url.dll",
+        "lib/net40/Retyped.is-relative-url.xml",
+        "retyped.is-relative-url.2.0.6733.nupkg.sha512",
+        "retyped.is-relative-url.nuspec"
       ]
     },
     "SharpZipLib/1.0.0": {
@@ -1064,6 +1143,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
+      "Retyped.is-relative-url >= 2.0.6733 <= 2.0.6733",
       "UiPath.Excel.Activities >= 2.6.2 <= 2.6.2",
       "UiPath.Mail.Activities >= 1.5.1 <= 1.5.1",
       "UiPath.System.Activities >= 19.7.0 <= 19.7.0",
@@ -1071,19 +1151,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Massimo\\.nuget\\packages\\": {}
+    "C:\\Users\\mdiberardino\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "practica1",
       "projectName": "practica1",
-      "projectPath": "C:\\UiPathAcademy\\UiPathAcademy\\leccion 5\\practica1\\.local",
-      "packagesPath": "C:\\Users\\Massimo\\.nuget\\packages\\",
-      "outputPath": "C:\\UiPathAcademy\\UiPathAcademy\\leccion 5\\practica1\\.local"
+      "projectPath": "C:\\Users\\mdiberardino\\Desktop\\UiPathAcademy\\UiPathAcademy\\leccion 6\\practica1\\.local",
+      "packagesPath": "C:\\Users\\mdiberardino\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mdiberardino\\Desktop\\UiPathAcademy\\UiPathAcademy\\leccion 6\\practica1\\.local"
     },
     "frameworks": {
       "net461": {
         "dependencies": {
+          "Retyped.is-relative-url": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[2.0.6733, 2.0.6733]"
+          },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",
@@ -1107,5 +1192,28 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU3034",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Bridge.Core 17.1.0' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
+      "libraryId": "Bridge.Core"
+    },
+    {
+      "code": "NU3034",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.is-relative-url 2.0.6733' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
+      "libraryId": "Retyped.is-relative-url"
+    },
+    {
+      "code": "NU3034",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Retyped.Core 1.6.6733' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
+      "libraryId": "Retyped.Core"
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
-  "name": "practica2",
-  "description": "Crear una secuencia que lea y defina fuente, tamaño y estilo en el Bloc de notas sin utilizar el grabador:\r\nNavegar hasta la ventana emergente de fuentes\r\nLeer el tamaño y el estilo\r\nAjustar la fuente a Arial, aumentar el tamaño 5 puntos, ajustar el estilo a cursiva y elegir un nuevo alfabeto\r\nUtilizar variables y los ámbitos correctos",
+  "name": "practica1",
+  "description": "Crear una secuencia para introducir datos en la página web Automation Challenge.\r\nPrimero, utilice FakeNameGenerator.com para generar datos aleatorios. Extraiga valores para Name, Phone number y Company name.\r\nA continuación, escriba en el sitio web RPAChallenge.com los 3 valores en los campos First Name, Phone Number y Company Name.\r\nUtilice UiExplorer para construir un selector fiable. Pruebe la actividad Anchor Base y la opción Select Relative element en UiExplorer para obtener el elemento de",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.6.2]",
