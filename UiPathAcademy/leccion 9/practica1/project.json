@@ -1,0 +1,35 @@
+{
+  "name": "practica1",
+  "description": "Realizar la suma de dos columnas de 3 maneras\r\n \r\nCrear un flujo de trabajo que sume los valores de la columna A con los valores de la columna B y escriba el resultado en la columna C de distintas maneras:\r\n \r\n\r\nManteniendo el excel abierto y escribiendo los resultados en tiempo real, fila a fila para que veamos los cambios\r\nManteniendo el excel cerrado, asigando los valores de la columna en la DataTable de memoria y sumando toda la tabla en el archivo excel de una vez, al final\r\nCalculando la s",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.6.2]",
+    "UiPath.Mail.Activities": "[1.5.1]",
+    "UiPath.System.Activities": "[19.7.0]",
+    "UiPath.UIAutomation.Activities": "[19.7.0]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.7.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    }
+  },
+  "expressionLanguage": "VisualBasic"
+}
