@@ -5,6 +5,7 @@
   "dependencies": {
     "UiPath.Excel.Activities": "[2.6.2]",
     "UiPath.Mail.Activities": "[1.5.1]",
+    "UiPath.PDF.Activities": "[2.1.0]",
     "UiPath.System.Activities": "[19.7.0]",
     "UiPath.UIAutomation.Activities": "[19.7.0]"
   },
