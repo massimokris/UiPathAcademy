@@ -1,0 +1,35 @@
+{
+  "name": "practica2",
+  "description": "A.    Cree un flujo de trabajo que añada los datos de Sheet1, Sheet2, Sheet3... SheetN de un archivo Excel en un archivo nuevo con el nombre “Consolidated.xlsx”\r\nTodas las hojas tienen los mismos encabezados de columna: Name, Surname e Id\r\nLa hoja final debe mantener los encabezados. Supongamos que todas las hojas tienen las mismas columnas\r\nN es una variable que se puede definir con el número de hojas\r\n \r\nB. A partir de “Consolidated.xlsx”, elimine todas las filas con un valor de “ID” inferio",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.6.2]",
+    "UiPath.Mail.Activities": "[1.5.1]",
+    "UiPath.System.Activities": "[19.7.0]",
+    "UiPath.UIAutomation.Activities": "[19.7.0]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.7.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    }
+  },
+  "expressionLanguage": "VisualBasic"
+}
