@@ -1,0 +1,35 @@
+{
+  "name": "practica1",
+  "description": "Ejercicio práctico\r\n \r\nSea un documento PDF nativo con información dinámica como el que se adjunta. Utilizar una automatización con Anchor Base para extraer el valor del campo DATE y el nombre del valor del campo BILL TO de la factura.\r\n \r\nDescargar el archivo .pdf adjunto.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.6.2]",
+    "UiPath.Mail.Activities": "[1.5.1]",
+    "UiPath.System.Activities": "[19.7.0]",
+    "UiPath.UIAutomation.Activities": "[19.7.0]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.7.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    }
+  },
+  "expressionLanguage": "VisualBasic"
+}
